@@ -251,7 +251,7 @@ Now, lets run a script that allows the plotting of the Pfam domain predictions g
 sudo /usr/local/bin/Rscript  --vanilla ~/labs/lab08-$MYGIT/plotTreeAndDomains.r ~/labs/lab08-$MYGIT/RAE1/RAE1.homologs.al.mid.treefile
 ~/labs/lab08-$MYGIT/RAE1/RAE1.rps-blast.out
 ~/labs/lab08-$MYGIT/RAE1/RAE1.tree.rps.pdf
-
+```
 For brief explanations on the commands, sudo is used in cases you might need permission to install packages./usr/local/bin/Rscript, the rscript program enables you to run R script from the command line, not opening the R console. While --vanilla indicates to R to not save or restore a workspace or previous setting.
 Rps blast file will create the midpoint rooted tree for RAE1 proteins, Pfam domains from rps blast and output pdf file.
 
