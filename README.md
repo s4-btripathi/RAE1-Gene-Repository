@@ -256,7 +256,7 @@ For brief explanations on the commands, sudo is used in cases you might need per
 Rps blast file will create the midpoint rooted tree for RAE1 proteins, Pfam domains from rps blast and output pdf file.
 
 To now look at the domains for research, use the following command to focus on the predictions in pfam database :
-``bash
+```bash
 mlr --inidx --ifs "\t" --opprint  cat ~/labs/lab08-$MYGIT/RAE1/RAE1.rps-blast.out | tail -n +2 | less -S
 ```
 This command should create a domain-on-tree graphic 
