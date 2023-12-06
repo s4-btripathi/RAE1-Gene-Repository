@@ -222,7 +222,7 @@ thirdkind -Iie -D 40 -f ~/labs/lab06-$MYGIT/RAE1/RAE1.homologs.al.mid.treefile.r
 This creates a gene reconciliation with species tree reconciliation using third kind to view the tree. 
 
 # Part 17 - Protein Domain Prediction 
-We need to use unaligned protein sequence. First, Create a directory for RAE1 sequences and change into that directory using the following command: 
+We need to use unaligned protein sequence. First, Create a directory for RAE1 sequences and change into that directory using the following command:
 ```bash
 mkdir ~/labs/lab08-$MYGIT/RAE1 && cd ~/labs/lab08-$MYGIT/RAE1
 ```
@@ -262,7 +262,7 @@ mlr --inidx --ifs "\t" --opprint  cat ~/labs/lab08-$MYGIT/RAE1/RAE1.rps-blast.ou
 This command should create a domain-on-tree graphic 
 
 Now, we will move onto analyzing distribution of pfam domains in RAE1 protein. Use the following command to do so: 
-``bash 
+```bash 
 cut -f 1 ~/labs/lab08-$MYGIT/RAE1/RAE1.rps-blast.out | sort | uniq -c
 ```
 ```bash
